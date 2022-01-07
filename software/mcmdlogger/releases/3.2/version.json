@@ -1,6 +1,6 @@
 {
   "release": "multiplatform",
-  "date": 1640995200,
+  "date": 1641168000,
   "changes": [
     "New \"fakegm\" command, that allows to give player fake gamemode",
     "Fixed server list \"no connection\" bug",
