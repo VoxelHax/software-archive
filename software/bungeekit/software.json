@@ -1,0 +1,5 @@
+{
+  "title": "BungeeKit",
+  "short_description": "BungeeCord ip-forwarding login spoofer",
+  "full_description": "BungeeKit is an util, that allows you to connect servers with BungeeCord mode enabled. It also allows to spoof connection host and player ip."
+}
