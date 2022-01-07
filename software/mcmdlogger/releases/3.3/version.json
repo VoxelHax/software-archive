@@ -4,6 +4,7 @@
   "changes": [
     "New \"fakegm\" command, that allows to give player fake gamemode",
     "Fixed server list \"no connection\" bug",
-    "Fixed ip duplication in \"banip\" command"
+    "Fixed ip duplication in \"banip\" command",
+    "Added protocol fallback support for some versions (including 1.16.4, 1.16.5)"
   ]
 }
