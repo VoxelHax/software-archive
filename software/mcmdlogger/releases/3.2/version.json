@@ -3,7 +3,7 @@
   "date": 1641168000,
   "changes": [
     "Changed the processing of command input to the console, fixed some visual bugs",
-    "Fixed a bug due to which the line breaks with \"\n\" in the kick and send commands did not work",
+    "Fixed a bug due to which the line breaks with \"\\n\" in the kick and send commands did not work",
     "Added built-in integration with ngrok, now you don't need to download and run it separately",
     "Added a configuration file, now the settings of some functions (for example, the log file mcmdlogger.log) are not reset upon restart",
     "New \"deaf\" command, that allows to hide all new server chat messages from the player",
