@@ -1,0 +1,8 @@
+{
+  "release": "multiplatform",
+  "date": 1648857600,
+  "changes": [
+    "Fixed chat logging on fallback versions (including 1.16.4 and 1.16.5)",
+    "Updated Minecraft protocol mappings, added support for 1.18.1 and 1.18.2"
+  ]
+}
