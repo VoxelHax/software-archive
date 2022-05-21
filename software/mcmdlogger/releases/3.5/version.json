@@ -1,0 +1,7 @@
+{
+  "release": "multiplatform",
+  "date": 1653091200,
+  "changes": [
+    "Added script system (described in documentation)"
+  ]
+}
