@@ -29,9 +29,9 @@ const manifest = {
                     .map(name => ([name, JSON.parse(fs.readFileSync(path.resolve(`software/${id}/releases/${name}/version.json`)))]))
                     .map(([version, release]) => {
                         const files = []
-                        for (const file of fs.readdirSync(path.resolve(`software/${id}/releases/${version}`))) {
-                            if (file !== `version.json`)
-                                files.push(parseFileTree(`software/${id}/releases/${version}/${file}`))
+                        if (fs.existsSync(path.resolve(`software/${id}/releases/${version}/files`))) {
+                            for (const file of fs.readdirSync(path.resolve(`software/${id}/releases/${version}/files`)))
+                                files.push(parseFileTree(`software/${id}/releases/${version}/files/${file}`))
                         }
                         return {
                             version,
