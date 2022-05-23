@@ -1,0 +1,36 @@
+name: Update API repo
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  api:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Generate api.json
+        run: node build.js
+        env:
+          REPO: ${{ github.repository }}
+
+      - name: Push api.json
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_file: "api.json"
+          destination_repo: ${{ secrets.DESTINATION_REPO }}
+          user_email: ${{ secrets.USER_EMAIL }}
+          user_name: ${{ secrets.USER_NAME }}
