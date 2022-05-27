@@ -1,0 +1,6 @@
+{
+  "title": "OpenBukloit",
+  "short_description": "Minecraft plugin backdoor injector",
+  "full_description": "Automatic backdoor injector for Bukkit-based plugins (Bukkit, Spigot, Paper, etc. servers).",
+  "source": "https://github.com/VoxelHax/OpenBukloit"
+}
