@@ -1,0 +1,9 @@
+{
+  "release": "link",
+  "date": 1654300800,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.3",
+  "changes": [
+    "Fixed some JDK auto-downloading bugs",
+    "Fixed UTF-8 exploit compiling issues"
+  ]
+}
