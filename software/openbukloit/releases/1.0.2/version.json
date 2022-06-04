@@ -1,0 +1,9 @@
+{
+  "release": "link",
+  "date": 1654300800,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.2",
+  "changes": [
+    "Fixed FileAlreadyExistsException bug",
+    "Added error tracing (--trace-errors)"
+  ]
+}
