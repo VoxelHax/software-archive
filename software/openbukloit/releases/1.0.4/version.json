@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1654300800,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.4",
+  "changes": [
+    "Fixed \"process hasn't exited\" bug"
+  ]
+}
