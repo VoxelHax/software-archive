@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1656115200,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.5",
+  "changes": [
+    "Fixed JDK installation on macOS"
+  ]
+}
