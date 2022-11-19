@@ -6,4 +6,5 @@
     "Added additional error handling to ngrok integration",
     "Added \"vermaps\" command for managing local version mappings (now you don't need to wait for next MCmdLogger update to use it with new Minecraft versions)",
     "Removed UPX compression from release binaries"
+  ]
 }
