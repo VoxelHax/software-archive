@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1670803200,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.8",
+  "changes": [
+    "Fixed JDK downloading issues on macOS x64"
+  ]
+}
