@@ -1,0 +1,7 @@
+{
+  "release": "multiplatform",
+  "date": 1677283200,
+  "changes": [
+    "Fixed chat logging issue on 1.19+"
+  ]
+}
