@@ -1,0 +1,12 @@
+{
+  "release": "multiplatform",
+  "date": 1704067200,
+  "changes": [
+    "Fixed some chat-related issues on 1.19+",
+    "Scripting API for timeouts and intervals",
+    "Scripting filesystem API",
+    "Scripting console colors API",
+    "Scripting event cancellation API",
+    "Overall big scripting system update"
+  ]
+}
