@@ -1,0 +1,8 @@
+{
+  "release": "multiplatform",
+  "date": 1707782400,
+  "changes": [
+    "Updated ngrok integration, fixed proxied IP detection",
+    "Added coords command and corresponding scripting API method"
+  ]
+}
