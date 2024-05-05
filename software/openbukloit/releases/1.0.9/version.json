@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1714867200,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.9",
+  "changes": [
+    "Migrated to Adoptium API v3 (should fix some JDK downloading issues)"
+  ]
+}
