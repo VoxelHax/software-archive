@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1740441600,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.0.10",
+  "changes": [
+    "Auto-creation of onEnable method for plugins that don't have one by default"
+  ]
+}
