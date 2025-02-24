@@ -25,7 +25,7 @@ const manifest = {
                 id,
                 data,
                 releases: fs.readdirSync(path.resolve(`software/${id}/releases`))
-                    .sort()
+                    .sort(semverCompare)
                     .map(name => ([name, JSON.parse(fs.readFileSync(path.resolve(`software/${id}/releases/${name}/version.json`)))]))
                     .map(([version, release]) => {
                         const files = []
@@ -44,3 +44,14 @@ const manifest = {
 }
 
 fs.writeFileSync('api.json', JSON.stringify(manifest), { encoding: 'utf8' })
+
+function semverCompare(a, b) {
+    const pa = a.split('.').map(Number)
+    const pb = b.split('.').map(Number)
+    for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+        const na = pa[i] || 0
+        const nb = pb[i] || 0
+        if (na !== nb) return na - nb
+    }
+    return 0
+}
