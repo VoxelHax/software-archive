@@ -1,0 +1,8 @@
+{
+  "release": "link",
+  "date": 1745650800,
+  "link": "https://github.com/VoxelHax/OpenBukloit/releases/tag/v1.1.0",
+  "changes": [
+    "Heavily documented code and optimized certain portions of it"
+  ]
+}
