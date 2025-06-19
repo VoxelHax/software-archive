@@ -1,0 +1,11 @@
+{
+  "release": "multiplatform",
+  "date": 1750377600,
+  "changes": [
+    "Fixed crash when building updated PrismarineJS mappings",
+    "Build process for PrismarineJS mappings should now take less time and have lower RAM usage",
+    "Executing commands as player via \"sudo\" command or script action should now work on 1.19.3+",
+    "Ngrok integration has been removed at the request of ngrok team",
+    "Updated compiler, support for Windows 7 has been dropped"
+  ]
+}
